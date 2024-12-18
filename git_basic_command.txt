@@ -26,3 +26,5 @@ git reset --soft 커밋코드
 git revert 커밋코드 (해당 커밋코드의 전껄로 돌아감에 주의)
 git revert 돌아갈커밋코드..현재커밋코드
 
+만약 이미 push된 커밋을 로컬에서 reset한 후 원격으로 덮어씌우고싶을땐,
+git push -f (--force) origin master *단 협업일땐 지양하기
