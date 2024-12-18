@@ -1,0 +1,28 @@
+최초설정
+git config --global user.name "이름"
+git config --global user.email 이메일
+권한거부시 자격증명 들어가서 기존꺼 삭제
+
+git init
+git status
+git log --all --oneline
+
+git add .
+git rm --cached 파일명
+
+git commit -m "설명"
+git commit -am "설명"
+
+git push origin master
+
+:q
+:wq
+:qa
+
+git reset --hard 커밋코드
+git reset --mixed 커밋코드
+git reset --soft 커밋코드
+
+git revert 커밋코드 (해당 커밋코드의 전껄로 돌아감에 주의)
+git revert 돌아갈커밋코드..현재커밋코드
+
